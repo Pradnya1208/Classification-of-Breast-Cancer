@@ -13,7 +13,7 @@
 
 </div>
 
-# <div align="center">Tree based model for the classification of Breast cancer</div>
+# <div align="center">Tree based model for the classification of Breast Cancer</div>
 <div align="center">
-<img src = "https://github.com/Pradnya1208/Tree-based-Models-for-the-classification-of-Breast-Cancer/blob/main/output/intro.jpg?raw=true">
+<img src = "https://github.com/Pradnya1208/Tree-based-Models-for-the-classification-of-Breast-Cancer/blob/main/output/intro.jpg?raw=true" width="80%">
 </div>
