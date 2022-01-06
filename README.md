@@ -62,7 +62,92 @@ X,y = load_breast_cancer(return_X_y=True, as_frame=True)
 ## Implementation:
 
 **Libraries:**  `NumPy` `pandas` `pylab` `matplotlib` `sklearn` `seaborn` `plotly`
+### Count of Malignant(value =0) and Benign(value = 1) tumors:
+<img src ="https://github.com/Pradnya1208/Classification-of-Breast-Cancer/blob/main/output/Capture.PNG?raw=true">
 
+Data has no nyll values, but we have removed some highly correlated features:
+```
+drop_list = ['mean perimeter','mean radius','mean compactness','mean concave points','radius error','perimeter error','compactness error','concave points error','worst radius','worst perimeter','worst compactness','worst concave points','worst texture','worst area']
+X = X.drop(drop_list, axis=1)
+```## Machine Learning Model Evaluation and Prediction:
+We have used following models for classification:
+#### Decision trees classifier:
+```
+The accuracy of the model is: 95.61
+confusion matrix
+[[40  3]
+ [ 2 69]]
+```
+
+#### Logistic Regression
+```
+The accuracy of the model is: 97.37
+confusion matrix
+[[42  1]
+ [ 2 69]]
+ ```
+
+#### KNN classifier:
+```
+The accuracy of the model is: 92.11
+confusion matrix
+[[38  5]
+ [ 4 67]]
+```
+
+#### SVM:
+```
+The accuracy of the model is: 97.37
+confusion matrix
+[[42  1]
+ [ 2 69]]
+```
+
+#### K-SVM:
+```
+The accuracy of the model is: 92.98
+confusion matrix
+[[38  5]
+ [ 3 68]]
+```
+
+#### Naive Bayes:
+```
+The accuracy of the model is: 93.86
+confusion matrix
+[[39  4]
+ [ 3 68]]
+ ```
+
+#### Random Forest:
+```
+The accuracy of the model is: 95.61
+confusion matrix
+[[41  2]
+ [ 3 68]]
+ ```
+
+
+
+### Lessons Learned
+`Classification Algorithms`
+`Scaling and Data Transformation`
+
+
+
+
+
+
+## References:
+[Building a Simple Machine Learning Model on Breast Cancer Data](https://towardsdatascience.com/building-a-simple-machine-learning-model-on-breast-cancer-data-eca4b3b99fa3)
+### Feedback
+
+If you have any feedback, please reach out at pradnyapatil671@gmail.com
+
+
+### 🚀 About Me
+#### Hi, I'm Pradnya! 👋
+I am an AI Enthusiast and  Data science & ML practitioner
 
 
 [1]: https://github.com/Pradnya1208
